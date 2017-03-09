@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "node",
+    "lib": ["es6"],
+    "types": [
+      "node",
+      "serve-static",
+      "express",
+      "express-serve-static-core"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "public"
+  ]
+}
